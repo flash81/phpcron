@@ -1,0 +1,9 @@
+cron:
+  build: .
+  environment:
+      - CRON=*/1 * * * * echo 111  #*/5 * * * * /usr/share/nginx/html/yii chat/index
+  restart: always
+  tty: true
+
+
+
